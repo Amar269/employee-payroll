@@ -112,3 +112,43 @@ header{
     margin-left: 8px;
     cursor: pointer;
 }
+
+.gender-content{
+    display:flex;
+    align-items:center;
+    gap:20px;
+}
+
+.department-content{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    flex-wrap:wrap;
+}
+
+.salary-content{
+    display:flex;
+    align-items:center;
+    gap:20px;
+    flex:1;
+}
+
+.salary-content input[type="range"]{
+    flex:1;
+    cursor:pointer;
+}
+
+.gender-content label,
+.department-content label{
+    display:flex;
+    align-items:center;
+    gap:5px;
+    cursor:pointer;
+}
+
+.salary-content output{
+    width:90px;
+    font-size:18px;
+    color:#42515F;
+    font-weight:600;
+}
