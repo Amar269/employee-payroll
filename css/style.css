@@ -153,3 +153,24 @@ header{
     font-weight:600;
 }
 
+.date-content{
+    display:flex;
+    gap:20px;
+    flex:1;
+}
+
+.date-content select{
+    flex:1;
+    padding:12px;
+    font-size:16px;
+    border:1px solid #d9d9d9;
+    border-radius:4px;
+    color:#42515F;
+    background:white;
+    cursor:pointer;
+}
+
+.date-content select:focus{
+    outline:none;
+    border-color:#82A70C;
+}
