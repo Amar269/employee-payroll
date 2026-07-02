@@ -6,6 +6,7 @@
 
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: lightgrey;
 }
 
 header{
@@ -49,4 +50,9 @@ header{
     font-size:22px;
     font-weight:700;
     letter-spacing:1px;
+}
+
+.main-container{
+    width:80%;
+    margin:40px auto;
 }
