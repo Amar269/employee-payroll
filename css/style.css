@@ -10,44 +10,39 @@ body{
 
 header{
     background-color: white;
+    padding: 15px 0;
 }
 
 .header-container{
     width: 80%;
     margin: auto;
-}
-
-.logo-container{
-    display: flex;
+    display:flex;
+    align-items:center;
 }
 
 .logo-container{
     display: flex;
     align-items: center;
 }
-
 .logo-container img{
-    width: 60px;
-    height: 60px;
-}
-
-.logo-container img{
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
     margin-right: 12px;
 }
-
 .logo-text{
     display: flex;
     flex-direction: column;
-}
+    text-transform:uppercase;
+    line-height:1.2;
 
+}
 .logo-text span:first-child{
     color: #82A70C;
-    font-weight: bold;
+    font-size:22px;
+    font-weight:700;
 }
-
 .logo-text span:last-child{
     color: #42515F;
-    font-weight: bold;
+    font-size:22px;
+    font-weight:700;
 }
