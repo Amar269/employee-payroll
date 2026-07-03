@@ -129,7 +129,7 @@ header{
 .salary-content{
     display:flex;
     align-items:center;
-    gap:20px;
+    gap:15px;
     flex:1;
 }
 
@@ -147,27 +147,32 @@ header{
 }
 
 .salary-content output{
-    width:90px;
+    width:80px;
     font-size:18px;
     color:#42515F;
     font-weight:600;
 }
 
 .date-content{
+
     display:flex;
-    gap:20px;
+
+    gap:15px;
+
     flex:1;
 }
 
 .date-content select{
+
     flex:1;
+
     padding:12px;
+
     font-size:16px;
+
     border:1px solid #d9d9d9;
+
     border-radius:4px;
-    color:#42515F;
-    background:white;
-    cursor:pointer;
 }
 
 .date-content select:focus{
@@ -176,17 +181,30 @@ header{
 }
 
 textarea{
+
     flex:1;
+
+    min-height:110px;
+
     padding:12px;
+
     border:1px solid #d9d9d9;
+
     border-radius:4px;
+
     font-size:16px;
-    resize:none;
+
     font-family:Arial, Helvetica, sans-serif;
+
+    resize:none;
+
+    box-sizing:border-box;
 }
 
 textarea:focus{
+
     outline:none;
+
     border-color:#82A70C;
 }
 .button-parent{
@@ -233,4 +251,8 @@ textarea:focus{
     color:#42515F;
 
     background:#e0e0e0;
+}
+.button:hover{
+
+    opacity:.9;
 }
