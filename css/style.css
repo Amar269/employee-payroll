@@ -174,3 +174,63 @@ header{
     outline:none;
     border-color:#82A70C;
 }
+
+textarea{
+    flex:1;
+    padding:12px;
+    border:1px solid #d9d9d9;
+    border-radius:4px;
+    font-size:16px;
+    resize:none;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+textarea:focus{
+    outline:none;
+    border-color:#82A70C;
+}
+.button-parent{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    margin-top:30px;
+}
+.submit-reset{
+
+    display:flex;
+    gap:20px;
+}
+.button{
+
+    padding:12px 28px;
+
+    border:none;
+
+    border-radius:5px;
+
+    font-size:16px;
+
+    cursor:pointer;
+
+    text-decoration:none;
+
+    transition:.3s;
+}
+.submit-button{
+
+    background:#82A70C;
+
+    color:white;
+}
+.reset-button{
+
+    background:#e0e0e0;
+}
+.cancel-button{
+
+    color:#42515F;
+
+    background:#e0e0e0;
+}
